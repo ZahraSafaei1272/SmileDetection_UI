@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smile Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .result-text {
+            font-size: 24px;
+            color: #222;
+            margin-top: 20px;
+        }
+        .btn {
+            margin-top: 30px;
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smile Detection Result (for one person)</h1>
+
+    <div class="result-text">
+        <p>{{ results }}</p>
+    </div>
+
+    <img src="{{ output_path }}" alt="Processed Image">
+
+    <br>
+    <a href="/" class="btn">⬅ Back</a>
+</body>
+</html>

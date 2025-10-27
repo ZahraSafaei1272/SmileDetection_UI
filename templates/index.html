@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smile Detection 😊</title>
+  <style>
+    body { text-align: center; font-family: Arial; margin-top: 100px; }
+    input[type=file], input[type=submit] { margin: 20px; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h2>Upload an image to detect smile 😁</h2>
+  <form action="/predict" enctype="multipart/form-data" method="post">
+      <input type="file" name="file" accept="image/*" required>
+      <input type="submit" value="Detect Smile">
+  </form>
+</body>
+</html>
