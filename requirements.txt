@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+opencv-python
+joblib
+scikit-learn
+jinja2
+python-multipart
+scikit-image
+os
+glob
+natsort
