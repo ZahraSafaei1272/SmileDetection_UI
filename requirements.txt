@@ -6,6 +6,5 @@ scikit-learn
 jinja2
 python-multipart
 scikit-image
-os
 glob
 natsort
